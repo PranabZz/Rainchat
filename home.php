@@ -94,9 +94,10 @@ if (!$_SESSION['loged']) {
       </form>
     </section>
     <?php
+    include "connection.php";
     $sql1 = "SELECT * FROM `Post` ORDER BY id DESC ";
 
-    $result1 = $connection->query($sql1);
+    $result1 = $conn->query($sql1);
 
     while ($row = mysqli_fetch_row($result1)) {
       echo "

@@ -4,13 +4,7 @@ session_start();
 
 $user = $_SESSION['name'];
 $to = $_SESSION['to'];
-
-$servername ="localhost";
-$username = "user";
-$password = "root";
-$db = "id18428070_chat";
-
-$conn = mysqli_connect($servername,$username,$password,$db);
+include "connection.php";
 
 
 	if(!$conn){

@@ -27,9 +27,6 @@ if ($_SESSION['loged']) {
 
 
 
-
-
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -149,6 +146,7 @@ if ($_SESSION['loged']) {
 						$("#message_area").html(data);
 					};
 				}
+				
 			})
 			$(".chatbox-message-content").scrollTop($(".chatbox-message-content")[0].scrollHeight);
 		}, 700);

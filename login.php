@@ -115,7 +115,7 @@ body{
               <br>
             <input type="password" placeholder="password" name="psw" required>
         <a href="">Forget your password?</a>
-        <div class="login-btn">
+        <div class="login-btn flex justify-center items-center">
             <button  name ="register" >Login</button>
         </div>
         <div class="register">
@@ -130,16 +130,7 @@ body{
 
 <?php
 
-$servername ="localhost";
-$username = "user";
-$password = "root";
-$db = "id18428070_chat";
-
-$conn = mysqli_connect($servername,$username,$password,$db);
-
-if(!$conn){
-  echo "No connection";
-}
+include "connection.php";
 if(isset($_POST['register'])){
   $email = FILTER_INPUT(INPUT_POST, 'email');
   $pass = FILTER_INPUT(INPUT_POST, 'psw' );

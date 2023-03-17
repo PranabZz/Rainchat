@@ -6,7 +6,10 @@ $username = "user";
 $password = "root";
 $db = "id18428070_chat";
 
-$connection = mysqli_connect($servername,$username,$password,$db);
+$conn = mysqli_connect($servername,$username,$password,$db);
 
+if(!$conn){
+  echo "No connection";
+}
 
 ?>

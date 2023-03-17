@@ -5,7 +5,13 @@ Installation
 
 To install Rainchat, follow these steps:
 
-    1. Clone the repository: git clone git@github.com:PranabZz/Rainchat.git
-    2. Import the rainchat.sql file into your MySQL database using phpMyAdmin or any other MySQL client.
-    3. Update the database configuration in the config.php file with your MySQL database details.
-    4. Start the application by running the index.php file in your web server.
+    Clone the repository: 
+        git clone git@github.com:PranabZz/Rainchat.git
+    
+    Import the rainchat.sql file into your MySQL database using phpMyAdmin or any other MySQL client.
+    
+    Update the database configuration in the config.php file with your MySQL database details.
+    
+    Start the application by running the index.php file in your web server or run 
+            php -S localhost:8000 
+    in your terminal

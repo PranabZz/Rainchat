@@ -12,7 +12,7 @@ To install Rainchat, follow these steps:
     
 2.Import the <b> rainchat.sql </b> file into your MySQL database using phpMyAdmin or any other MySQL client.
     
-3.Update the database configuration in the config.php file with your MySQL database details.
+3.Update the database configuration in the <b> connection.php </b> file with your MySQL database details.
     
 4.Start the application by running the index.php file in your web server or run 
             

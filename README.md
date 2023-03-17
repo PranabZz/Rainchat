@@ -6,17 +6,17 @@ Rainchat is a simple chat application built with PHP and MySQL. This repository 
 
 To install Rainchat, follow these steps:
 
-Clone the repository: 
+1.Clone the repository: 
         
-        git clone git@github.com:PranabZz/Rainchat.git
+    git clone git@github.com:PranabZz/Rainchat.git
     
-Import the <b> rainchat.sql </b> file into your MySQL database using phpMyAdmin or any other MySQL client.
+2.Import the <b> rainchat.sql </b> file into your MySQL database using phpMyAdmin or any other MySQL client.
     
-Update the database configuration in the config.php file with your MySQL database details.
+3.Update the database configuration in the config.php file with your MySQL database details.
     
-Start the application by running the index.php file in your web server or run 
+4.Start the application by running the index.php file in your web server or run 
             
-            php -S localhost:8000 
+     php -S localhost:8000 
 
 
 <h1>Features</h1>
